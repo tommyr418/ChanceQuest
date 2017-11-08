@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./lib/entry.js",
+  entry: "./lib/chance_quest.js",
   output: {
     filename: "./lib/bundle.js",
   },
