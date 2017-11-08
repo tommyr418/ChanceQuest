@@ -1,0 +1,21 @@
+{
+  "name": "chance_quest",
+  "version": "1.0.0",
+  "description": "A game loosely based on the risk board game in which a player tries to take over all territories on a game map. Players have limited troops that are distributed throughout the territories that they control. Players can attack adjacent territories as long as they have the troops. Battle outcomes are determined by dice roll.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyr418/ChanceQuest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyr418/ChanceQuest/issues"
+  },
+  "homepage": "https://github.com/tommyr418/ChanceQuest#readme"
+}
