@@ -25,8 +25,8 @@ This project will be implemented with the following technologies:
 
 ## Implementation Timeline
 
-Day 1: Setup the node modules and webpack. Work on getting the entry file ready. Work on game board territories rendering logic.
+Day 1: Setup the node modules and webpack. Work on getting the entry file ready. Work on game board territories game logic.
 
-Day 2: Finish up any game board rendering. Begin programming game logic.
+Day 2: Finish up any game board logic. Begin rendering.
 
-Day 3: Finish up game logic and integrate with the board
+Day 3: Finish up game rendering and integrate with the logic.
