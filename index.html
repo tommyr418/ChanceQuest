@@ -10,6 +10,41 @@
   </head>
   <body>
     <div id="game-area">
+      <div class="menu close" id="main-menu">
+        <div class="title">
+          <h1>Chance Quest</h1>
+        </div>
+        <div class="options">
+          <a id="start">Start</a>
+          <a id="directions">Directions</a>
+        </div>
+      </div>
+
+      <div class="menu close" id="directions-page-1">
+        <h1>Directions</h1>
+        <label>Introduction</label>
+        <p>Welcome to Chance Quest, a game of conquest and chance - see what I did there? You play as a commander in service of a king. The king is ambitious and greedy so he is trying to conquer a neighboring kingdom, which is of course headed by an equally ambitious and greedy king. In fact, they are bothers! DUN DUN DUN. Yes, I have been watching a lot of Game of Thrones lately. Moving on. </p>
+        <div class="menu-nav">
+          <a class="directions-close">Main menu</a>
+          <a class="directions-next">Next page</a>
+        </div>
+      </div>
+
+      <div class="menu close" id="directions-page-2">
+        <h1>Directions</h1>
+        <label>Objective</label>
+        <p>Each player will start the game with one territory which is also the base. Bases are marked with a star. Players are marked by the colors red and blue. You win when you take over the enemy's base. </p>
+        <div>
+          <img src="./assets/images/blue-castle.png">
+          <img src="./assets/images/red-castle.png">
+        </div>
+        <div class="menu-nav">
+          <a class="directions-close">Main menu</a>
+          <a class="directions-back">Prev page</a>
+          <a class="directions-next">Next page</a>
+        </div>
+      </div>
+
       <canvas id="map-canvas" width="800" height="650"
         style="border: 2px solid SteelBlue"></canvas>
       <canvas id="game-canvas" width="200" height="650"

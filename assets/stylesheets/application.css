@@ -7,4 +7,91 @@
 #game-area {
   width: 1012px;
   margin: 0 auto;
+  position: relative;
+}
+
+.menu {
+  width: 800px;
+  height: 650px;
+  background-image: url("../images/scroll.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 6px;
+  left: 2px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.title {
+  background-image: url("../images/sword.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 86px;
+  width: 500px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.title h1 {
+  font-size: 48px;
+  color: brown;
+  margin: 0 75px;
+  padding-bottom: 10px
+}
+
+label {
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  max-width: 500px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:hover {
+  color: teal;
+}
+
+.menu-nav{
+  width: 500px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.close {
+  z-index: -1;
+}
+
+.open {
+  z-index: 10;
 }
