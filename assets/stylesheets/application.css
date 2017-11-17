@@ -1,3 +1,11 @@
+body {
+  background-color: #0f525a;
+}
+
+canvas {
+  border: 2px solid black;
+}
+
 #map-canvas {
   background-image: url("../images/world_map.jpg");
   background-size: 800px 650px;
@@ -8,6 +16,12 @@
   width: 1012px;
   margin: 0 auto;
   position: relative;
+}
+
+#game-canvas {
+  background-image: url("../images/scroll_long.gif");
+  background-size: 200px 650px;
+  background-repeat: no-repeat;
 }
 
 .menu {
