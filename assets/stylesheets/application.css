@@ -102,6 +102,10 @@ img {
   object-position: center;
 }
 
+li {
+  max-width: 500px;
+}
+
 .close {
   z-index: -1;
 }
