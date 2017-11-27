@@ -106,6 +106,20 @@ li {
   max-width: 500px;
 }
 
+.dialog {
+  background-size: 75%;
+}
+
+#dialog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .close {
   z-index: -1;
 }
