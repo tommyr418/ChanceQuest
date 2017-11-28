@@ -120,6 +120,19 @@ li {
   font-weight: bold;
 }
 
+#sandbox-canvas {
+  background-image: url("../images/sandbox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sandbox-text {
+  width: 500px;
+  height: 150px;
+  overflow: auto;
+}
+
 .close {
   z-index: -1;
 }
