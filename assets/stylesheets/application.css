@@ -162,6 +162,13 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tutorial-dialog-content {
+  width: 200px;
 }
 
 .close {
