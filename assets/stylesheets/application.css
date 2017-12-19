@@ -42,6 +42,24 @@ canvas {
   font-family: cursive;
 }
 
+.links {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 6px;
+  right: 2px;
+}
+
+.links a {
+  font-size: 20px;
+  color: Black;
+  text-decoration: none;
+}
+
 .title {
   background-image: url("../images/sword.png");
   background-size: contain;
