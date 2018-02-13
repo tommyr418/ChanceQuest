@@ -21,19 +21,19 @@ Attacker|Defender|Result
 
 4. Players will recruit new units based on the amount of territories they control at the end of their turn.
 
-These are added to the main base:
-1 unit(always)
-1 unit for every 3 territories
-1 unit for every fort(special territories marked with a circle)
-
-These are added to forts controlled:
-1 unit(always)
+Main base(marked with star) | Forts(marked with circle)
+-|-
+1 unit(always)|1 unit(always)
+1 unit for each 3 territories|
+1 unit for each fort|
 
 5. A player wins if he or she takes over the enemy base
 
 ## Layout
 
 ![Layout](/assets/images/layout.png)
+
+Features a simple UI with a board game like feel.
 
 ## Technologies
 
