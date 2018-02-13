@@ -16,10 +16,10 @@ Examples:
 
 Attacker|Defender|Result
 -|-|-
-6,4,2|3,2|defender loses 2 units
-1,1,1|2,2|attacker loses 2 units
-4,3,1|4,3|attacker loses 2 units
-6,2,1|5,2|each lose 1 unit
+6, 4, 2|3, 2|defender loses 2 units
+1, 1, 1|2, 2|attacker loses 2 units
+4, 3, 1|4, 3|attacker loses 2 units
+6, 2, 1|5, 2|each lose 1 unit
 
 4. Players will recruit new units based on the amount of territories they control at the end of their turn.
 
@@ -121,7 +121,7 @@ generateSprite(territory) {
 }
 ```
 
-Everything in this game is made possible by organizing data into objects. In the above example, I created a sprite object to represent the pieces in a game of risk. Treating it as a representation of a physical object allows for pieces to be moved like a real board game. 
+Everything in this game is made possible by organizing data into objects. In the above example, I created a sprite object to represent the pieces in a game of risk. Treating it as a representation of a physical object allows for pieces to be moved like a real board game.
 
 ## Future plans
 
