@@ -8,7 +8,7 @@ A game loosely based on the [Risk](https://en.wikipedia.org/wiki/Risk_(game)) bo
 
 2. Players can move all but one of their units to an adjacent territory attempting to take it over. Most territories are empty by default. Players must fight for territories that are already controlled.
 
-3. Battle is determined by dice roll. Both sides get to roll dice equal to the amount of units that are taking part of the battle(up to 3 for attacker up to 2 for defender). Dice rolls are compared from highest to lowest. Each time the dice is compared the side with the lower side loses an unit. Ties result int the attacker losing an unit.
+3. Battle is determined by dice roll. Both sides get to roll dice equal to the amount of units that are taking part of the battle(up to 3 for attacker up to 2 for defender). Dice rolls are compared from highest to lowest. Each time the dice is compared the side with the lower roll loses an unit. Ties result in the attacker losing an unit.
 
 Examples:
 
@@ -19,23 +19,28 @@ Attacker|Defender|Result
 4,3,1|4,3|attacker loses 2 units
 6,2,1|5,2|each lose 1 unit
 
-4. A player wins if he or she takes over the enemy base
+4. Players will recruit new units based on the amount of territories they control at the end of their turn.
 
-## Wireframes
+These are added to the main base:
+1 unit(always)
+1 unit for every 3 territories
+1 unit for every fort(special territories marked with a circle)
 
-The game will consist of a primary game board with a panels on the side displaying the amount of troops each player has.
+These are added to forts controlled:
+1 unit(always)
+
+5. A player wins if he or she takes over the enemy base
+
+## Layout
+
+![Layout](/assets/images/layout.png)
 
 ## Technologies
 
-This project will be implemented with the following technologies:
+This project was implemented with the following technologies:
 
 1. JavaScript
-2. Canvas
+2. Easel.JS (HTML 5 canvas)
+4. CSS
 
-## Implementation Timeline
-
-Day 1: Setup the node modules and webpack. Work on getting the entry file ready. Work on game board territories game logic.
-
-Day 2: Finish up any game board logic. Begin rendering.
-
-Day 3: Finish up game rendering and integrate with the logic.
+## Features
