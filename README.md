@@ -89,10 +89,14 @@ playComputerTurn() {
 
     setTimeout(() => {
       if(this.board[from].color === "Red" && this.board[from].units > 1) {
-        this.board[from].move(
+        const victory = this.board[from].move(
           this.board[to],
           this.players, this.sandbox, true
         );
+
+        if(victory) {
+          this.alert(victory);
+        }
       }
     }, delay);
 
