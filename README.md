@@ -2,7 +2,7 @@
 
 A game loosely based on the [Risk](https://en.wikipedia.org/wiki/Risk_(game)) board game in which a player tries to take over all territories on a game map. Players have limited troops that are distributed throughout the territories that they control. Players can attack adjacent territories as long as they have the troops. Battle outcomes are determined by dice roll.
 
-[Live link](http://tommyren.me/ChanceQuest/)
+[Live link](http://tommyren.site/ChanceQuest/)
 
 ## Rules
 
